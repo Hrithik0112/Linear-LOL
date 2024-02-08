@@ -1,7 +1,28 @@
+import { Container } from "@/components/container";
+import { Hero, HeroSubTitle, HeroTitle } from "@/components/hero";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 text-2xl">
-      Welcome To The World of Linear
-    </main>
+    <div>
+      <header>
+        <Container>Header</Container>
+      </header>
+      <main>
+        <Container>
+          <Hero>
+            <HeroTitle>
+              Linear is a better way <br /> to build products
+            </HeroTitle>
+            <HeroSubTitle>
+              Meet the new standard for modern software development.
+              <br /> Streamline issues, sprints, and product roadmaps.
+            </HeroSubTitle>
+          </Hero>
+        </Container>
+      </main>
+      <footer>
+        <Container>footer</Container>
+      </footer>
+    </div>
   );
 }
