@@ -17,6 +17,7 @@ export default function Home() {
               Meet the new standard for modern software development.
               <br /> Streamline issues, sprints, and product roadmaps.
             </HeroSubTitle>
+            <img src="/img/Hero.webp" alt="Hero Image" />
           </Hero>
         </Container>
       </main>
