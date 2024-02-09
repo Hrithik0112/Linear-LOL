@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        {children}
+        <main className="pt-navigation-height">{children}</main>
         <Footer />
       </body>
     </html>
