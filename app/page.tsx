@@ -9,7 +9,7 @@ import { EnjoyIssueTracking } from "@/components/sections/enjoy-issue-tracking";
 export default function Home() {
   return (
     <>
-      <div className="overflow-hidden">
+      <div className="overflow-hidden pb-[16.4rem] md:pb-[25.6rem]">
         <Container className=" py-[6.4rem]">
           <HomepageHero />
         </Container>
