@@ -4,6 +4,7 @@ import { StarsIllustration } from "@/components/icons/stars";
 import { HomepageHero } from "@/components/sections/homepage-hero";
 import { UnlikeAnyTool } from "@/components/sections/unlike-any-tool";
 import classNames from "classnames";
+import { EnjoyIssueTracking } from "@/components/sections/enjoy-issue-tracking";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <StarsIllustration />
       </div>
       <UnlikeAnyTool />
+      <EnjoyIssueTracking />
     </>
   );
 }
