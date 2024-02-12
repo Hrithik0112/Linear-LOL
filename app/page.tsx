@@ -5,6 +5,7 @@ import { HomepageHero } from "@/components/sections/homepage-hero";
 import { UnlikeAnyTool } from "@/components/sections/unlike-any-tool";
 import classNames from "classnames";
 import { EnjoyIssueTracking } from "@/components/sections/enjoy-issue-tracking";
+import { BuildMomentum } from "@/components/sections/build-momentum";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       </div>
       <UnlikeAnyTool />
       <EnjoyIssueTracking />
+      <BuildMomentum />
     </>
   );
 }
