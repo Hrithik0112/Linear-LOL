@@ -6,6 +6,7 @@ import { UnlikeAnyTool } from "@/components/sections/unlike-any-tool";
 import classNames from "classnames";
 import { EnjoyIssueTracking } from "@/components/sections/enjoy-issue-tracking";
 import { BuildMomentum } from "@/components/sections/build-momentum";
+import { SetDirection } from "@/components/sections/set-directions";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <UnlikeAnyTool />
       <EnjoyIssueTracking />
       <BuildMomentum />
+      <SetDirection />
     </>
   );
 }
